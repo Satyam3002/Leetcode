@@ -22,6 +22,7 @@ public:
         
         while(s <= e) {
             int mid = s + (e - s) / 2;
+            
             if(isAnswer(position, mid, m)) {
                 ans = mid;
                 s = mid + 1;
